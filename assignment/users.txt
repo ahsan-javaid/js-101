@@ -1,0 +1,3 @@
+{ "firstName": "jon", "lastName":"doe", "email": "jon@domain.com"},
+{ "firstName": "alex", "lastName":"been", "email": "alex@domain.com"},
+{"firstName":"afaf","lastName":"faf","email":"faf@gmail.com"}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <title>Simple web page</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <style>
+        body         { padding-top:80px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="/add-user">Add New User</a>
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% for(var i=0; i<users.length; i++) { %>
+        <tr>
+            <td><%=users[i].firstName%></td>
+            <td><%=users[i].lastName%></td>
+            <td><%=users[i].email%></td>
+        </tr>
+        <%}%>
+        </tbody>
+    </table>
+</div>
+
+</div>
+</body>
+</html>
